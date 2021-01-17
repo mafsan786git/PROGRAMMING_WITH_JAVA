@@ -1,0 +1,206 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DiscHeightDp",
+            "request": "launch",
+            "mainClass": "DiscHeightDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiderManAgainDp",
+            "request": "launch",
+            "mainClass": "SpiderManAgainDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinDifferentSum",
+            "request": "launch",
+            "mainClass": "CoinDifferentSum",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpiderManDp",
+            "request": "launch",
+            "mainClass": "SpiderManDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShopingDp",
+            "request": "launch",
+            "mainClass": "ShopingDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShopingRecur",
+            "request": "launch",
+            "mainClass": "ShopingRecur",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinChangeRecur",
+            "request": "launch",
+            "mainClass": "CoinChangeRecur",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch AgainOptimizationDp",
+            "request": "launch",
+            "mainClass": "AgainOptimizationDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch AgainOptimizationRecur",
+            "request": "launch",
+            "mainClass": "AgainOptimizationRecur",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumStepDp",
+            "request": "launch",
+            "mainClass": "MinimumStepDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumStepRecursive",
+            "request": "launch",
+            "mainClass": "MinimumStepRecursive",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestIncreSubDP",
+            "request": "launch",
+            "mainClass": "LongestIncreSubDP",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestIncreSubRec",
+            "request": "launch",
+            "mainClass": "LongestIncreSubRec",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack01Dp",
+            "request": "launch",
+            "mainClass": "Knapsack01Dp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch Knapsack01Recursive",
+            "request": "launch",
+            "mainClass": "Knapsack01Recursive",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubSetSum",
+            "request": "launch",
+            "mainClass": "SubSetSum",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpringBoardDp",
+            "request": "launch",
+            "mainClass": "SpringBoardDp",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpringBoardRecursion",
+            "request": "launch",
+            "mainClass": "SpringBoardRecursion",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciAgain",
+            "request": "launch",
+            "mainClass": "FibonacciAgain",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputTemplate",
+            "request": "launch",
+            "mainClass": "InputTemplate",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "LongestCommonSubsequence",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch MasaiMonetary",
+            "request": "launch",
+            "mainClass": "MasaiMonetary",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumPages",
+            "request": "launch",
+            "mainClass": "MinimumPages",
+            "projectName": "DynamicProgramming_265d7985"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberWaysStair",
+            "request": "launch",
+            "mainClass": "NumberWaysStair",
+            "projectName": "DynamicProgramming_265d7985"
+        }
+    ]
+}

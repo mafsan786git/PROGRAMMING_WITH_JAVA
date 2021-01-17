@@ -1,0 +1,174 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MovementMinioninsOptimise",
+            "request": "launch",
+            "mainClass": "MovementMinioninsOptimise",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniqueToy",
+            "request": "launch",
+            "mainClass": "UniqueToy",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddSubtract",
+            "request": "launch",
+            "mainClass": "AddSubtract",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoatLife",
+            "request": "launch",
+            "mainClass": "BoatLife",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch BrickStack",
+            "request": "launch",
+            "mainClass": "BrickStack",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch CureDesease",
+            "request": "launch",
+            "mainClass": "CureDesease",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch DanceNight",
+            "request": "launch",
+            "mainClass": "DanceNight",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputTemplate",
+            "request": "launch",
+            "mainClass": "InputTemplate",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Marathon",
+            "request": "launch",
+            "mainClass": "Marathon",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxWeightValue",
+            "request": "launch",
+            "mainClass": "MaxWeightValue",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumPermutation",
+            "request": "launch",
+            "mainClass": "MaximumPermutation",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumCoinSherlock",
+            "request": "launch",
+            "mainClass": "MinimumCoinSherlock",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch MovementMinionins",
+            "request": "launch",
+            "mainClass": "MovementMinionins",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Neelam",
+            "request": "launch",
+            "mainClass": "Neelam",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pokeman",
+            "request": "launch",
+            "mainClass": "Pokeman",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemovingBrickStack",
+            "request": "launch",
+            "mainClass": "RemovingBrickStack",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Roomhiding",
+            "request": "launch",
+            "mainClass": "Roomhiding",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Samosa",
+            "request": "launch",
+            "mainClass": "Samosa",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringAandBOnly",
+            "request": "launch",
+            "mainClass": "StringAandBOnly",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwappingSorting",
+            "request": "launch",
+            "mainClass": "SwappingSorting",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch SweetMax",
+            "request": "launch",
+            "mainClass": "SweetMax",
+            "projectName": "GreedyTechnique_80a8ab05"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transform",
+            "request": "launch",
+            "mainClass": "Transform",
+            "projectName": "GreedyTechnique_80a8ab05"
+        }
+    ]
+}

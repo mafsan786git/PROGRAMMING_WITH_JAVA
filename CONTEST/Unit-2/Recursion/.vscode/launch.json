@@ -1,0 +1,287 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Validator",
+            "request": "launch",
+            "mainClass": "Validator",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestStringNotRepeating",
+            "request": "launch",
+            "mainClass": "LongestStringNotRepeating",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeetCodeSubSet",
+            "request": "launch",
+            "mainClass": "LeetCodeSubSet",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoctorSubsetAgain",
+            "request": "launch",
+            "mainClass": "DoctorSubsetAgain",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gift",
+            "request": "launch",
+            "mainClass": "Gift",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoctorSubset",
+            "request": "launch",
+            "mainClass": "DoctorSubset",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciAgain",
+            "request": "launch",
+            "mainClass": "FibonacciAgain",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumPages",
+            "request": "launch",
+            "mainClass": "MinimumPages",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberWaysStair",
+            "request": "launch",
+            "mainClass": "NumberWaysStair",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch Investigation",
+            "request": "launch",
+            "mainClass": "Investigation",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumHeightBounce",
+            "request": "launch",
+            "mainClass": "MinimumHeightBounce",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumExist",
+            "request": "launch",
+            "mainClass": "SumExist",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch BobBox",
+            "request": "launch",
+            "mainClass": "BobBox",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AllSubsequence",
+            "request": "launch",
+            "mainClass": "AllSubsequence",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbingStairs",
+            "request": "launch",
+            "mainClass": "ClimbingStairs",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinToss",
+            "request": "launch",
+            "mainClass": "CoinToss",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch EncryptionEliot",
+            "request": "launch",
+            "mainClass": "EncryptionEliot",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch FamousSum",
+            "request": "launch",
+            "mainClass": "FamousSum",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch FixedCombination",
+            "request": "launch",
+            "mainClass": "FixedCombination",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch FollowNights",
+            "request": "launch",
+            "mainClass": "FollowNights",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch GPSum",
+            "request": "launch",
+            "mainClass": "GPSum",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeneratePermutation",
+            "request": "launch",
+            "mainClass": "GeneratePermutation",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputTemplate",
+            "request": "launch",
+            "mainClass": "InputTemplate",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogOfFact",
+            "request": "launch",
+            "mainClass": "LogOfFact",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch NQueen",
+            "request": "launch",
+            "mainClass": "NQueen",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch NickHacks",
+            "request": "launch",
+            "mainClass": "NickHacks",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddSubsets",
+            "request": "launch",
+            "mainClass": "OddSubsets",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeSubString",
+            "request": "launch",
+            "mainClass": "PalindromeSubString",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationOfArray",
+            "request": "launch",
+            "mainClass": "PermutationOfArray",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhoneNumber",
+            "request": "launch",
+            "mainClass": "PhoneNumber",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimilarText",
+            "request": "launch",
+            "mainClass": "SimilarText",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch StairReturn",
+            "request": "launch",
+            "mainClass": "StairReturn",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubSetOfArray",
+            "request": "launch",
+            "mainClass": "SubSetOfArray",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sudoku",
+            "request": "launch",
+            "mainClass": "Sudoku",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOFArray",
+            "request": "launch",
+            "mainClass": "SumOFArray",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "TowerOfHanoi",
+            "projectName": "Recursion_69b55097"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordSearching",
+            "request": "launch",
+            "mainClass": "WordSearching",
+            "projectName": "Recursion_69b55097"
+        }
+    ]
+}
