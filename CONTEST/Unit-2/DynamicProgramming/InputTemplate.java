@@ -10,7 +10,9 @@ public class InputTemplate {
         return arr;
     }
     public static void main(String[] args) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"));
+        // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(10,9,8,7,6,5,3,4,2,1));
 
