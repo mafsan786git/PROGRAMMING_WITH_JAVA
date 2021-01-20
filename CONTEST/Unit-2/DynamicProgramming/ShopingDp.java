@@ -1,6 +1,22 @@
 import java.io.*;
 import java.util.*;
+/**
+    Alice is in a shopping mall to buy books, shirts and shoes. The mall has exactly N different shops and each shop contains all these three items at different prices. Alice has a plan which she will be following. As per her plan, she won't buy the same item from the current shop if she had already bought that item from the shop adjacent to the current shop.
+    Alice wants to follow her strategy strictly but at the same time she wants to minimize the total money she spends on shopping. You are provided description about all N shops i.e costs of all three items in each shop. You need to help Alice find minimum money that she needs to spend such that she buys exactly one item from every shop.
+    
+    For each test case, output the minimum cost of shopping taking the mentioned conditions into account in a separate line.
 
+Sample Input 1 
+
+1
+3
+1 50 50
+50 50 50
+1 50 50
+Sample Output 1
+52
+
+ */
 public class ShopingDp {
     static int[] StringToInt(StringTokenizer input) {
         int[] arr = new int[input.countTokens()];

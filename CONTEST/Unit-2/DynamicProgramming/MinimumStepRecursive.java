@@ -9,6 +9,7 @@ public class MinimumStepRecursive {
             arr[i] = sc.nextInt();
         }
         System.out.println(minStepRecur(arr,n,0));
+        sc.close();
     }
 
     private static int minStepRecur(int[] arr, int n, int index) {

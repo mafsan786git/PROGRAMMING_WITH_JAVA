@@ -15,7 +15,7 @@ public class InputTemplate {
         // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(10,9,8,7,6,5,3,4,2,1));
-
+        Collections.sort(arr);
         StringTokenizer input = new StringTokenizer(br.readLine());
         
         int t = Integer.parseInt(input.nextToken());
@@ -28,7 +28,8 @@ public class InputTemplate {
             boy = StringToInt(input);
             input = new StringTokenizer(br.readLine());
             HashMap<Integer,Integer> map = new HashMap<>();
-        
+    
+            map.size();
             //ArrayList sorted using comparator
             ArrayList<ArrayList<Float>> values = new ArrayList<ArrayList<Float>>();
             for (int i = 0; i < boy.length; i++) {
@@ -47,6 +48,8 @@ public class InputTemplate {
             // });
 
         }
+        br.close();
+        bw.close();
 
     }
     
