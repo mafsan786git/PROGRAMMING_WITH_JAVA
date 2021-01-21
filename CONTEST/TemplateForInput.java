@@ -1,4 +1,11 @@
 public class TemplateForInput {
+    static int[] StringToInt(StringTokenizer input){
+        int[] arr = new int[input.countTokens()];
+        int i=0;
+        while(input.hasMoreTokens())
+            arr[i++] = Integer.parseInt(input.nextToken());
+        return arr;
+    }
     public static void main(String[] args) throws IOException {
         // BufferedReader br = new BufferedReader(new FileReader("input.txt"));
         // BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"));
