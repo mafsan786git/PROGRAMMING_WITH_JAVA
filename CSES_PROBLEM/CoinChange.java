@@ -11,7 +11,7 @@ public class CoinChange {
         for (int i = 0; i < n; i++) {
             coins[i] = sc.nextInt();        
         }
-        int mod = 1000000007;
+        // int mod = 1000000007;
         for (int i = 1; i < dp.length; i++) {
             for (int j = 0; j < n; j++) {
                 if(coins[j] <= i){
