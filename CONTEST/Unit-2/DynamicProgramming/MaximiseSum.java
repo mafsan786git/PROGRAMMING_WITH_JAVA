@@ -11,7 +11,7 @@ public class MaximiseSum {
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = sc.nextInt();
             }
-
+            /**Not correct Yet */
             int[][] dp = new int[3][n];
             int mx = arr[0];
             int mn = 1;
