@@ -2,10 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
 public class PainterBoard {
     static int ValidDays(long time,int[] arr,int painter){
-        
         long total = 0;
         int count=0;
         for (int i = 0; i < arr.length; i++) {
@@ -18,8 +16,6 @@ public class PainterBoard {
                 total = arr[i];
                 count++;
             }
-            // System.out.println(total + " " + i + " "+ count);
-            
         }
         if(total <= time && total !=0)
             count++;
@@ -28,7 +24,6 @@ public class PainterBoard {
         else if(count > painter)
             return 1;
         return -1;
-
     }
     public static void main(String[] args) throws IOException{
         BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
@@ -49,14 +44,11 @@ public class PainterBoard {
                 sum += arr[i-1];
                 low = Math.max(low, arr[i-1]);
             }
-            // Arrays.sort(arr);
-            // System.out.println(sum + " " + low);
             long high = sum;
             long mid =0;
             long ans=0;
             while(low <= high){
                 mid = low+(high-low)/2;
-                // System.out.println("mid - " + mid);
                 int x = ValidDays(mid, arr, p);
                 if( x <= 0)
                 {
@@ -65,7 +57,6 @@ public class PainterBoard {
                     
                 }else if(x > 0)
                     low = mid+1;
-                    // System.out.println("mid - " + mid + " ans - " + ans);
             }
             System.out.println(ans);
         }
