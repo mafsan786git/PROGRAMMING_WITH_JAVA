@@ -17,6 +17,7 @@ public class MinimumPages {
             else
                 System.out.println(temp-1);
         }
+        sc.close();
     }
 
     private static int PagesMin(HashMap<Integer, Integer> map, int n,int min) {
