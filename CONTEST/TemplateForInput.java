@@ -1,3 +1,5 @@
+import java.io.*;
+import java.util.*;
 public class TemplateForInput {
     static int[] StringToInt(StringTokenizer input){
         int[] arr = new int[input.countTokens()];
@@ -22,8 +24,8 @@ public class TemplateForInput {
                 input = new StringTokenizer(br.readLine());
                 shops[i] = StringToInt(input);
             }
-            long minCost = minCostCalculation(shops);
-            bw.write(minCost + "\n");
+            
+            bw.write("\n");
         }
 
         br.close();

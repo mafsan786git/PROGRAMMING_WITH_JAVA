@@ -59,9 +59,18 @@ public class GraphRepresentaion {
 
     private static void bfsUtil(LinkedList<Integer>[] adj) {
         Queue<Integer> queue = new LinkedList<>();
-        int[] visited = new int[adj.length];
-
-        return ;
-
+        boolean visited[] = new boolean[adj.length];
+        queue.add(1);
+        visited[1] = true;
+        while(queue.isEmpty() == false){
+            int cur = queue.poll();
+            for (int temp : adj[cur]) {
+                if(!visited[temp]){
+                    queue.add(temp);
+                    System.out.println(temp);
+                    visited[temp] = true;
+                }
+            }
+        }
     }
 }

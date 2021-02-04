@@ -15,6 +15,8 @@ public class LongPalindSubString {
             }
         }
         System.out.println(isPalindromeDp(str));
+        System.out.println(subString);
+        sc.close();
     }
     //Dp for longest Palindrome substring
     private static int isPalindromeDp(String str){
