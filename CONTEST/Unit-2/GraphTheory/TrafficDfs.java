@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 public class TrafficDfs implements Runnable {
@@ -8,7 +7,7 @@ public class TrafficDfs implements Runnable {
         adj[dest].add(source);
     }
     public static void main(String[] args) throws Exception {
-        new Thread(null, new Main(), "Main", 1<<26).start();
+        new Thread(null, new TrafficDfs(), "Main", 1<<26).start();
     }
     public void run() {
        Scanner sc = new Scanner(System.in);
