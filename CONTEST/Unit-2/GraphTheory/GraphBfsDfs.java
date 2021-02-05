@@ -25,12 +25,12 @@ public class GraphBfsDfs {
                 dfs(visited,i);
             }
         }
-        
         return count;
     }
     
     private void dfs(boolean[] visited,int index) {
         visited[index] = true;
+        
         for(Integer val : adj[index]){
             if(!visited[val])
                 dfs(visited, val);

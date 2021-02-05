@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
 public class SSSpathOnGraph {
     public static void addEdge(LinkedList<Integer>[] adj,int source,int dest){
         adj[source].add(dest);
@@ -73,8 +72,7 @@ public class SSSpathOnGraph {
                 dfsUtil(child, adj, visited,count+1,dis);
             }
             dis[node] = Math.min(dis[node], dis[child]+1);
-            dis[child] = Math.min(dis[node]+1, dis[child]);
-                
+            dis[child] = Math.min(dis[node]+1, dis[child]);     
         }
     }
 

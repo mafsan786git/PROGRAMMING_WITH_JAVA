@@ -29,6 +29,7 @@ public class TreeOrNot {
             System.out.println("YES");
         else
             System.out.println("NO");
+            sc.close();
     }
 
     private static void dfs(int node,LinkedList<Integer>[] adj, boolean[] visisted) {

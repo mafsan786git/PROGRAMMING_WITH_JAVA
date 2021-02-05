@@ -85,6 +85,8 @@ public class DijkstrasAlgorithm {
         }
         graph.shortestpathDijktra();
         graph.printDis();
+        br.close();
+        bw.close();
     }
     
 }

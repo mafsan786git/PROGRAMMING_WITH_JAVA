@@ -44,10 +44,9 @@ public class TrafficDfs implements Runnable {
             if(!visited[child])
             {
                 dfsUtil(child, adj, visited,count+1,dis);
-            }else{
+            }
             dis[node] = Math.min(dis[node], dis[child]+1);
             dis[child] = Math.min(dis[node]+1, dis[child]);
-            }
         }
     }
 }
