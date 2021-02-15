@@ -13,9 +13,9 @@ public class ArrayDesc {
         System.out.println(answer);
         sc.close();
     }
-
     private static long maxPages(int[] arr,int m) {
         long[][] dp  = new long[m+1][arr.length];
+        int mod = (int)1000000007;
         for (int i = 0; i < dp[0].length; i++) {
             if(i == 0){
                 if(arr[i] != 0) dp[arr[i]][i] = 1;
@@ -25,15 +25,15 @@ public class ArrayDesc {
                 continue;
             }
             if(arr[i] != 0){
-                dp[arr[i]][i] = (dp[arr[i]-1][i-1]%1000000007 
-                                + dp[arr[i]][i-1]%1000000007
-                                + ((arr[i]+1<=m) ? dp[arr[i]+1][i-1]%1000000007 : 0))%1000000007;
+                dp[arr[i]][i] = (dp[arr[i]-1][i-1]%mod 
+                                + dp[arr[i]][i-1]%mod
+                                + ((arr[i]+1<=m) ? dp[arr[i]+1][i-1]%mod : 0))%mod;
             }
             else
                 for (int j = 1; j < dp.length; j++) {
-                    dp[j][i] = (dp[j-1][i-1]%1000000007
-                             + dp[j][i-1]%1000000007
-                             + ((j < m) ? dp[j+1][i-1]%1000000007 : 0))%1000000007;
+                    dp[j][i] = (dp[j-1][i-1]%mod
+                             + dp[j][i-1]%mod
+                             + ((j < m) ? dp[j+1][i-1]%mod : 0))%mod;
                 }
         }
         // for (int i = 0; i < dp.length; i++) {
@@ -44,7 +44,7 @@ public class ArrayDesc {
         else{
             long result = 0;
             for (int i = 1; i < dp.length; i++) {
-                result  = (result%1000000007 + dp[i][arr.length-1]%1000000007)%1000000007;
+                result  = (result%mod + dp[i][arr.length-1]%mod)%mod;
             }
             return result;
         }
