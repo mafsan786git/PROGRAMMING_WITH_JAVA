@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Fibonacci {
-
-
     static long fib(long n){
         if(n == 0 || n == 1)
             return n;

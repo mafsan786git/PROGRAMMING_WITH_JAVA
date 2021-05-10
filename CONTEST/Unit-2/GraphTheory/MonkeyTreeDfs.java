@@ -24,14 +24,14 @@ public class MonkeyTreeDfs {
 
     }
     private static void dfsUpWard(int steps){
-        if(start<banana){
+        if(start<banana && step != 0){
             count++;
             start += steps;
             dfsUpWard(steps);
         }
     }
     private static void dfsDownWard(int steps){
-        if(start > banana){
+        if(start > banana step != 0){
             count++;
             start -= steps;
             dfsDownWard(steps);

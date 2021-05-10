@@ -6,6 +6,8 @@ public class LongPalindSubString {
         String str = sc.nextLine();
         int maxLen = 1;
         StringBuilder subString = new StringBuilder("");
+
+        //Brute force method O(n^3)
         for (int i = 0; i < str.length()-1; i++) {
             for(int j = i; j < str.length(); j++) {
                 if(isPalindrome(str,i,j) && maxLen < (j-i+1)){
@@ -18,7 +20,7 @@ public class LongPalindSubString {
         System.out.println(subString);
         sc.close();
     }
-    //Dp for longest Palindrome substring
+    //Dp for longest Palindrome substring O(n^2)
     private static int isPalindromeDp(String str){
         int[][] dp = new int[str.length()][str.length()];
         int left = 0,right=0;

@@ -35,5 +35,6 @@ public class CatchNum {
             }
             System.out.println(ans);
         }
+        sc.close();
     }
 }

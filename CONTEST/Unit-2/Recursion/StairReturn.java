@@ -47,8 +47,8 @@ public class StairReturn {
             return ;
         }
 
-        if(visited > arr.length)
-            return ;
+            if(visited > arr.length)
+                return ;
             if((index + arr[index]) < arr.length &&  (index + arr[index]) >= 0){
                 StairProblem(arr, index+arr[index], ans + 1, visited);
             }

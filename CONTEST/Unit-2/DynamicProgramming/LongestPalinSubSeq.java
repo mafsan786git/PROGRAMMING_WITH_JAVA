@@ -7,7 +7,7 @@ import java.util.*;
     There are many subsequences can be found which are palindrome like, AA, BCB, ABA, BB etc but we need to find the one with the maximum length.
  */
 
-public class LongestPalindrome {
+public class LongestPalinSubSeq {
     public static void main(String[] args) throws IOException{
         // BufferedReader br = new BufferedReader(new FileReader("input.txt"));
         // BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"));

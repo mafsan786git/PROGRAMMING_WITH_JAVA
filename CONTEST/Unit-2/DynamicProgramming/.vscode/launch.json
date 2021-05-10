@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SpringBoardDp",
+            "request": "launch",
+            "mainClass": "SpringBoardDp",
+            "projectName": "DynamicProgramming_7b4f10a8"
+        },
+        {
+            "type": "java",
             "name": "Launch DiscHeightDp",
             "request": "launch",
             "mainClass": "DiscHeightDp",
