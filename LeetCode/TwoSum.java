@@ -1,14 +1,12 @@
 package LeetCode;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 //Algorithm
 /*
  * check if number[index] present in set
- * yes return the index
+ * yes return the index of array
  * no  
  */
 public class TwoSum {
