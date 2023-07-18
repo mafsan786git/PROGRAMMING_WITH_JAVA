@@ -90,6 +90,7 @@ public class MergeSorted88{
         }
     }
 
+    //here in same loop we are doing , time is same but just reduced the code
     private static void mergeSortedArrayWithoutSpaceMoreCompact(int[] num1,int m, int[] num2,int n){
         int indexOfNum1 = m-1;
         int indexOfNum2 = n-1;
