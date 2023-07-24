@@ -7,25 +7,8 @@ import java.util.Vector;
 
 public class TreeTraversal94 {
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
     public static void main(String[] args) {
-        TreeNode tree = new TreeNode();
-        tree = new TreeNode(1);
-        tree.left = new TreeNode(2);
-        tree.right = new TreeNode(3);
-        tree.left.left = new TreeNode(4);
-        tree.left.right = new TreeNode(5);
+        Node tree = createTree();
         List<Integer> answer = new ArrayList<>();
         answer = inOrderTraversal(tree,answer);
         System.out.println(answer);
@@ -33,8 +16,20 @@ public class TreeTraversal94 {
         answer = inOrderTraversalByStack(tree,answer);
         System.out.println(answer);
     }
+    public static Node createTree(){
+        Node tree = new Node();
+        tree = new Node(1);
+        tree.left = new Node(2);
+        tree.right = new Node(2);
+        tree.left.left = new Node(2);
+        tree.left.right = null;
+        tree.right.left = new Node(4);
+        tree.right.right = new Node(3);
+        tree.right.right.left = new Node(3);
+        return tree;
+    }
 
-    public static List<Integer> inOrderTraversal(TreeNode root,List<Integer> list) {
+public static List<Integer> inOrderTraversal(Node root,List<Integer> list) {
         if(root == null)
             return list;
 
@@ -44,12 +39,12 @@ public class TreeTraversal94 {
         return list;
     }
 
-    private static List<Integer> inOrderTraversalByStack(TreeNode root,List<Integer> answer){
+    private static List<Integer> inOrderTraversalByStack(Node root,List<Integer> answer){
         if(root == null){
             return answer;
         }
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode curr = root;
+        Stack<Node> stack = new Stack<>();
+        Node curr = root;
         while(curr != null || !stack.empty()){
             while(curr != null){
                 stack.push(curr);
