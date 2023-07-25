@@ -16,16 +16,13 @@ public class TreeTraversal94 {
         answer = inOrderTraversalByStack(tree,answer);
         System.out.println(answer);
     }
-    public static Node createTree(){
+public static Node createTree(){
         Node tree = new Node();
         tree = new Node(1);
-        tree.left = new Node(2);
-        tree.right = new Node(2);
-        tree.left.left = new Node(2);
-        tree.left.right = null;
-        tree.right.left = new Node(4);
-        tree.right.right = new Node(3);
-        tree.right.right.left = new Node(3);
+        // tree.left = new Node(2);
+        // tree.right = new Node(2);
+        // tree.right.left = new Node(4);
+        // tree.right.right = new Node(3);
         return tree;
     }
 
