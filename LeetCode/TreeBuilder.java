@@ -6,7 +6,7 @@ public class TreeBuilder {
 
     }
 
-    public static Node buildTreeByUsingArrayElements(){
+    public static ListNode buildTreeByUsingArrayElements(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter size of array.");
         int size = sc.nextInt();
@@ -16,6 +16,6 @@ public class TreeBuilder {
             treeElements[i] = sc.nextInt();
         }
         sc.close();
-        return new Node();
+        return new ListNode();
     }
 }

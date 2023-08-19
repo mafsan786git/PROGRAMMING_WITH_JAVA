@@ -5,7 +5,7 @@ import java.util.Stack;
 public class TreeTraversal94 {
 
     public static void main(String[] args) {
-        Node tree = createTree();
+        ListNode tree = createTree();
         List<Integer> answer = new ArrayList<>();
         answer = inOrderTraversal(tree,answer);
         System.out.println(answer);
@@ -13,17 +13,17 @@ public class TreeTraversal94 {
         answer = inOrderTraversalByStack(tree,answer);
         System.out.println(answer);
     }
-public static Node createTree(){
-        Node tree = new Node();
-        tree = new Node(1);
-        tree.left = new Node(2);
-        tree.right = new Node(2);
-        tree.right.left = new Node(4);
-        tree.right.right = new Node(3);
+public static ListNode createTree(){
+        ListNode tree = new ListNode();
+        tree = new ListNode(1);
+        tree.left = new ListNode(2);
+        tree.right = new ListNode(2);
+        tree.right.left = new ListNode(4);
+        tree.right.right = new ListNode(3);
         return tree;
     }
 
-public static List<Integer> inOrderTraversal(Node root,List<Integer> list) {
+public static List<Integer> inOrderTraversal(ListNode root,List<Integer> list) {
         if(root == null)
             return list;
 
@@ -32,7 +32,7 @@ public static List<Integer> inOrderTraversal(Node root,List<Integer> list) {
         inOrderTraversal(root.right, list);
         return list;
 }
-public static List<Integer> preOrderTraversal(Node root,List<Integer> list) {
+public static List<Integer> preOrderTraversal(ListNode root,List<Integer> list) {
     if(root == null)
         return list;
 
@@ -43,12 +43,12 @@ public static List<Integer> preOrderTraversal(Node root,List<Integer> list) {
 }
 
 
-private static List<Integer> inOrderTraversalByStack(Node root,List<Integer> answer){
+private static List<Integer> inOrderTraversalByStack(ListNode root,List<Integer> answer){
         if(root == null){
             return answer;
         }
-        Stack<Node> stack = new Stack<>();
-        Node curr = root;
+        Stack<ListNode> stack = new Stack<>();
+        ListNode curr = root;
         while(curr != null || !stack.empty()){
             while(curr != null){
                 stack.push(curr);
