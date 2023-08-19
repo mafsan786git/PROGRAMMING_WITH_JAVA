@@ -1,7 +1,7 @@
 public class DepthBinaryTree104 {
     
     public static void main(String[] arg){
-        Node rootNode = TreeTraversal94.createTree();
+        ListNode rootNode = TreeTraversal94.createTree();
         int maxDepth = 0;
         // if(rootNode != null){
         //     maxDepth = 1;
@@ -9,7 +9,7 @@ public class DepthBinaryTree104 {
         System.out.println(depthOfBinaryTree(rootNode,maxDepth));
     }
 
-    private static int depthOfBinaryTree(Node root , int maxDepth){
+    private static int depthOfBinaryTree(ListNode root , int maxDepth){
         if(root == null){
             return maxDepth;
         }
