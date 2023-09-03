@@ -22,7 +22,7 @@ public class ListNode{
         System.out.println(head);
     }
 
-    public static ListNode removeNthFromEnd(ListNode head, int n) {
+    public static ListNode removeNthFromEndUsingMap(ListNode head, int n) {
         Map<Integer,ListNode> nodeMap = new HashMap<>();
         ListNode answer = head;
         ListNode previous = null;
