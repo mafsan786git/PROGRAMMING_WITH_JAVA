@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-import javax.swing.RowFilter.Entry;
 
 public class FrequentElements347 {
     public static void main(String[] args){
