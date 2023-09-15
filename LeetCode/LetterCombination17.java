@@ -25,6 +25,8 @@ public class LetterCombination17 {
      * @param arg
      */
     public static void main(String[] arg){
+        String upperCase = "bhcsv23t4823bhj".toUpperCase();
+        System.out.println(upperCase);
         Map<Character,String> mapOfLetters = createMapOfLetters();
         String digits = "23456789";
         letterCombinations(digits);
