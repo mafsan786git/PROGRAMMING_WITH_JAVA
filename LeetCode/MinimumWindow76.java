@@ -1,10 +1,10 @@
 public class MinimumWindow76 {
     public static void main(String[] args) {
-        String answer = minimumWindow("cabwefgewcwaefgcf","cae");
+        String answer = minimumWindowFullOptimised("cabwefgewcwaefgcf","cae");
         System.out.println(answer);
     }
 
-    public static String minimumWindow(String s,String t){
+    public static String minimumWindowFullOptimised(String s,String t){
         if(t.length() > s.length()) return "";
         int[] countT = createCount(0,t.length(),t);
         int neededCount = uniqueCount(countT);
