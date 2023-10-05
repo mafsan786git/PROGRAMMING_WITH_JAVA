@@ -9,6 +9,7 @@ public class CarFleet853 {
     }
 
     private static int countNumberOfCarFleet(int target,int[] position,int[] speed){
+        if(position.length == 1) return 1;
         int[][] pairOfCar = new int[position.length][2];
         for (int i = 0; i < position.length; i++) {
             pairOfCar[i][0] = position[i];
