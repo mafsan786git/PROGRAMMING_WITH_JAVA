@@ -2,7 +2,7 @@
 import java.util.*;
 
 
-class Solution {
+class ConnectedSolution {
     private List<List<Integer>> adjList = new ArrayList<>();
     private Set<Integer> seen = new HashSet<>();
     public int countComponents(int n, int[][] edges) {
@@ -20,7 +20,7 @@ class Solution {
     }
     
     private int usingUnionFind(int n, int[][] edges){
-        UnionFind uf = new UnionFind(n);
+        ConnectedUnionFind uf = new ConnectedUnionFind(n);
         int connected = 0;
         
         for(int i=0; i<edges.length; i++){
@@ -51,11 +51,11 @@ class Solution {
     }
 }
 
-class UnionFind{
+class ConnectedUnionFind{
     private int[] root;
     private int[] rank;
     
-    public UnionFind(int size){
+    public ConnectedUnionFind(int size){
         root = new int[size];
         rank = new int[size];
         for(int i=0; i<size; i++){
@@ -87,8 +87,7 @@ class UnionFind{
         rank[rootY]++;
         return 1;
     }
-    
-    
+
 }
 
 public class NumberOfConnected {
